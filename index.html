@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RiskRadar · Privacy policy and account deletion</title>
+<meta name="description" content="RiskRadar privacy policy and how to delete your account.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap">
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         color: #1F2937; background: #FFFFFF; line-height: 1.65; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 20px 64px; }
+  header { display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 20px;
+           padding-bottom: 16px; border-bottom: 1px solid #E5E7EB; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 16px 0 8px; font-size: 15px; }
+  a { color: #4338CA; }
+  .note { border: 1px solid #E5E7EB; border-inline-start: 4px solid #4338CA; border-radius: 8px;
+          padding: 12px 16px; color: #4B5563; }
+  section { padding-top: 24px; margin-top: 32px; border-top: 1px solid #E5E7EB; }
+  h2 { font-size: 26px; line-height: 1.3; margin: 0 0 4px; }
+  h3 { font-size: 18px; margin: 24px 0 8px; }
+  .small { color: #6B7280; font-size: 14px; margin-top: 0; }
+  li { margin-bottom: 6px; }
+  ul, ol { padding-inline-start: 1.25em; }
+  [lang="ur"] { font-family: "Noto Nastaliq Urdu", serif; line-height: 2.2; }
+  [lang="ur"] h2 { line-height: 2; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4338CA" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2" fill="#4338CA"/></svg>
+<span>RiskRadar</span>
+</header>
+<nav>
+<a href="#privacy">Privacy policy</a>
+<a href="#delete-account">Delete your RiskRadar account</a>
+<a href="#ur-privacy" lang="ur" dir="rtl">پرائیویسی پالیسی</a>
+<a href="#ur-delete-account" lang="ur" dir="rtl">اپنا RiskRadar اکاؤنٹ حذف کریں</a>
+</nav>
+<p class="note">Draft for legal review. This text is not in force yet.</p>
+<section id="privacy" lang="en" dir="ltr">
+<h2>Privacy policy</h2>
+<p class="small">Last updated: 1 October 2026</p>
+<p>This policy explains what RiskRadar, run by Muhammad Usman Jamil, Lahore, Pakistan, collects about sellers and their customers, why, and for how long. We don’t sell personal data and don’t show ads.</p>
+<p>Customer mobile numbers are turned into a one-way code (a keyed hash) as soon as they reach our servers. We keep the code, not the number, so we can count parcels per number without storing who the number belongs to.</p>
+<h3>Sellers and their staff</h3>
+<ul><li>Mobile number: stored encrypted and as a one-way code, used to log in with a code by SMS.</li><li>Shop name, city and an optional page link; the devices you log in from (name, type, last used); when you accepted the terms.</li><li>Business verification: CNIC or NTN images and the number our reviewer types in.</li><li>Courier API keys: encrypted; only the last 4 characters are shown back to you.</li><li>Payments: plan or pack, amount, method, receipt images and payment references.</li><li>Checks you make: the one-way code of the number, how you checked (app, WhatsApp, share) and the result. Your check history in the app is saved only on your phone, encrypted, and cleared when you log out.</li><li>Extra WhatsApp numbers you add for the bot: stored encrypted and as a one-way code.</li></ul>
+<h3>Customers (buyers)</h3>
+<p>From couriers and uploaded files we keep, per parcel: the tracking number, the one-way code of the customer’s mobile number, city, booking date and delivery status. We do not collect customers’ names or addresses.</p>
+<p>If a customer uses our correction page, we also keep the reason and note they write. For a correction request we keep an encrypted copy of their number only to send the decision by SMS, and delete it once sent. Their IP address is checked by Cloudflare’s robot check and, for rate limits, kept only as a one-way code.</p>
+
+<h3>What shops can see about a customer</h3>
+<p>A masked number (like 0300 ••• 4567), delivered and returned counts for the last 12 months, how many shops shipped to it, and a label calculated only from those counts. Never which shops, never names or addresses.</p>
+
+<h3>Why we use it</h3>
+<ul><li>To give check results and keep the shared counts correct.</li><li>To keep accounts secure: login codes, spotting misuse (unusual checking patterns pause checks automatically) and preventing duplicate accounts.</li><li>To verify businesses, take payments and answer support requests.</li><li>To meet legal obligations.</li></ul>
+<h3>Who we share it with</h3>
+<p>Service providers that run parts of RiskRadar for us, under their own security terms:</p>
+<ul><li>Hosting and storage: Railway, Neon, Upstash, Cloudflare (R2) and Vercel.</li><li>Messages: Meta (WhatsApp replies from our bot) and our SMS provider (login codes and decisions).</li><li>Payments: Safepay and banks, for the payments you make.</li><li>Robot check: Cloudflare Turnstile on the correction page.</li><li>Error reports: Sentry receives crash details without personal data.</li><li>Couriers: we read your shipments from PostEx or other couriers with the key you give us.</li></ul>
+<p>We share data with authorities only when Pakistani law requires it. Our providers’ servers are outside Pakistan (for example in India, Singapore, the EU or the US); data is encrypted in transit and at rest.</p>
+<h3>How long we keep it</h3>
+<ul><li>Delivery outcomes and check records: 12 months (shipments 13 months, so the oldest month of your analytics is complete).</li><li>Verification images and the typed-in CNIC/NTN number: 30 days after our decision.</li><li>Correction requests: 12 months after the decision; the customer’s number is deleted once the decision is sent.</li><li>Payment receipts: 12 months after the payment is settled. Invoice amounts stay while the account exists.</li><li>Login code requests: 12 months. Sessions: deleted 30 days after they expire.</li><li>Waitlist sign-ups: 12 months.</li><li>Closed accounts: everything is deleted 30 days after closing, including files, and the shared counts are recalculated without them.</li><li>Our admin audit log is kept to show who did what; it holds no customer numbers.</li></ul>
+<h3>How we protect it</h3>
+<p>Encryption (AES-256) for numbers, keys and documents; one-way codes for customer numbers; private file storage with short-lived links; screenshots blocked in the app; two-step login and an audit log for our staff; and regular security checks.</p>
+
+<h3>Your choices and rights</h3>
+<ul><li>Sellers can see and edit their details, disconnect couriers, remove staff and bot numbers, and close the account in the app.</li><li>Customers can see the counts linked to their number and ask for a correction on our website, or by emailing usmanjamil047@gmail.com with the number. We reply within 14 days.</li><li>For access, correction or deletion requests beyond this, write to usmanjamil047@gmail.com. We answer within 30 days, as far as the law allows.</li></ul>
+<h3>Children, changes and contact</h3>
+<p>RiskRadar is for businesses and not meant for anyone under 18.</p>
+<p>If this policy changes, the app asks you to accept the new version. Contact: usmanjamil047@gmail.com, Lahore, Pakistan.</p>
+
+</section>
+<section id="delete-account" lang="en" dir="ltr">
+<h2>Delete your RiskRadar account</h2>
+<p class="small">Last updated: 1 October 2026</p>
+<p>RiskRadar is published on Google Play by unmetlabs. This page explains how to delete your RiskRadar account and what happens to your data.</p>
+<h3>Account owners: delete it in the app</h3>
+<ol><li>Open RiskRadar and log in.</li><li>Tap More.</li><li>Tap Close account.</li><li>Type CLOSE and confirm.</li></ol>
+<p>Everyone on the account is logged out at once and your courier keys are forgotten straight away. Everything else is deleted 30 days later. This can’t be undone.</p>
+<h3>Staff members, or if you can’t use the app</h3>
+<p>Email usmanjamil047@gmail.com from any address and include the mobile number you log in with. We confirm the number by SMS code, then delete the account within 30 days. Staff members can also ask the account owner to remove them from the team.</p>
+
+<h3>What is deleted</h3>
+<ul><li>Login numbers, shop name, city and page link.</li><li>Logged-in devices and sessions.</li><li>Business verification images and document numbers.</li><li>Courier connections and the shipments imported from them.</li><li>Payments, invoices and receipt images.</li><li>Records of the checks you made and the extra WhatsApp numbers you added.</li><li>Your parcels are removed from the shared counts other shops see.</li><li>Check history saved on your phone is deleted when you log out.</li></ul>
+<h3>What is kept</h3>
+<ul><li>Our admin audit log, which records what our staff did (for example approving a verification). It holds no customer numbers and is kept for security.</li><li>Records your bank or wallet keeps of payments you made are outside RiskRadar.</li></ul>
+<h3>Delete only some data</h3>
+<ul><li>A courier key: More → Couriers → the courier → Disconnect. The key is deleted at once; imported shipments are kept until they are 13 months old or your account is deleted.</li><li>An extra WhatsApp number: More → WhatsApp bot → Remove.</li><li>Anything else: email usmanjamil047@gmail.com. We reply within 30 days.</li></ul>
+</section>
+<section id="ur" lang="ur" dir="rtl"><p class="note">قانونی جائزے کے لیے مسودہ۔ یہ متن ابھی نافذ نہیں۔</p></section>
+<section id="ur-privacy" lang="ur" dir="rtl">
+<h2>پرائیویسی پالیسی</h2>
+<p class="small">آخری تبدیلی: ⁦1⁩ اکتوبر ⁦2026⁩</p>
+<p>یہ پالیسی بتاتی ہے کہ ⁦Muhammad Usman Jamil⁩، لاہور، پاکستان کے زیرِ انتظام RiskRadar فروخت کنندگان اور ان کے گاہکوں کے بارے میں کیا جمع کرتا ہے، کیوں، اور کب تک رکھتا ہے۔ ہم ذاتی ڈیٹا نہیں بیچتے اور اشتہار نہیں دکھاتے۔</p>
+<p>گاہکوں کے موبائل نمبر ہمارے سرورز تک پہنچتے ہی ایک یک طرفہ کوڈ (keyed hash) میں بدل دیے جاتے ہیں۔ ہم نمبر نہیں، یہ کوڈ رکھتے ہیں، تاکہ یہ جانے بغیر کہ نمبر کس کا ہے، ہر نمبر کے پارسل گنے جا سکیں۔</p>
+<h3>فروخت کنندگان اور ان کا اسٹاف</h3>
+<ul><li>موبائل نمبر: انکرپٹ شدہ اور یک طرفہ کوڈ کی صورت میں محفوظ، SMS کوڈ سے لاگ اِن کے لیے۔</li><li>دکان کا نام، شہر اور اختیاری پیج لنک؛ جن ڈیوائسز سے آپ لاگ اِن کرتے ہیں (نام، قسم، آخری استعمال)؛ شرائط قبول کرنے کا وقت۔</li><li>کاروبار کی تصدیق: CNIC یا NTN کی تصاویر اور ہمارے جائزہ کار کا درج کیا ہوا نمبر۔</li><li>کوریئر API کی: انکرپٹ شدہ؛ آپ کو صرف آخری ⁦4⁩ حروف دکھائے جاتے ہیں۔</li><li>ادائیگیاں: پلان یا پیک، رقم، طریقہ، رسید کی تصاویر اور ادائیگی کے حوالے۔</li><li>آپ کے چیکس: نمبر کا یک طرفہ کوڈ، چیک کا ذریعہ (ایپ، واٹس ایپ، شیئر) اور نتیجہ۔ ایپ میں آپ کی چیک ہسٹری صرف آپ کے فون پر انکرپٹ ہو کر محفوظ ہوتی ہے اور لاگ آؤٹ پر مٹ جاتی ہے۔</li><li>بوٹ کے لیے شامل کیے گئے اضافی واٹس ایپ نمبر: انکرپٹ شدہ اور یک طرفہ کوڈ کی صورت میں۔</li></ul>
+<h3>گاہک (خریدار)</h3>
+<p>کوریئرز اور اپ لوڈ کی گئی فائلوں سے ہم ہر پارسل کا یہ رکھتے ہیں: ٹریکنگ نمبر، گاہک کے موبائل نمبر کا یک طرفہ کوڈ، شہر، بکنگ کی تاریخ اور ڈیلیوری اسٹیٹس۔ ہم گاہکوں کے نام یا پتے جمع نہیں کرتے۔</p>
+<p>اگر کوئی گاہک ہمارا درستگی کا صفحہ استعمال کرے تو ہم اس کی لکھی ہوئی وجہ اور نوٹ بھی رکھتے ہیں۔ درستگی کی درخواست کے لیے ہم اس کے نمبر کی انکرپٹ شدہ کاپی صرف فیصلہ SMS کرنے کے لیے رکھتے ہیں اور بھیجنے کے بعد حذف کر دیتے ہیں۔ اس کا IP ایڈریس Cloudflare کے روبوٹ چیک میں جانچا جاتا ہے اور حد بندی کے لیے صرف یک طرفہ کوڈ کی صورت میں رکھا جاتا ہے۔</p>
+
+<h3>دکانیں گاہک کے بارے میں کیا دیکھ سکتی ہیں</h3>
+<p>چھپا ہوا نمبر (جیسے ⁦0300 ••• 4567⁩)، پچھلے ⁦12⁩ مہینوں میں ڈیلیور اور واپس ہونے والے پارسلوں کی تعداد، کتنی دکانوں نے اس نمبر پر بھیجا، اور صرف انہی گنتیوں سے بنا ایک لیبل۔ کبھی یہ نہیں کہ کون سی دکانیں، اور نہ کبھی نام یا پتے۔</p>
+
+<h3>ہم اسے کیوں استعمال کرتے ہیں</h3>
+<ul><li>چیک کے نتائج دینے اور مشترکہ گنتی درست رکھنے کے لیے۔</li><li>اکاؤنٹس محفوظ رکھنے کے لیے: لاگ اِن کوڈ، غلط استعمال کی نشاندہی (غیر معمولی انداز پر چیکس خود بخود رک جاتے ہیں) اور ڈپلیکیٹ اکاؤنٹس روکنا۔</li><li>کاروبار کی تصدیق، ادائیگیاں وصول کرنے اور سپورٹ کے لیے۔</li><li>قانونی ذمہ داریاں پوری کرنے کے لیے۔</li></ul>
+<h3>ہم یہ کس کے ساتھ شیئر کرتے ہیں</h3>
+<p>وہ سروس فراہم کنندگان جو ہمارے لیے RiskRadar کے حصے چلاتے ہیں، اپنی سیکیورٹی شرائط کے تحت:</p>
+<ul><li>ہوسٹنگ اور اسٹوریج: Railway، Neon، Upstash، Cloudflare (R2) اور Vercel۔</li><li>پیغامات: Meta (ہمارے بوٹ کے واٹس ایپ جوابات) اور ہمارا SMS فراہم کنندہ (لاگ اِن کوڈ اور فیصلے)۔</li><li>ادائیگیاں: Safepay اور بینک، آپ کی کی گئی ادائیگیوں کے لیے۔</li><li>روبوٹ چیک: درستگی کے صفحے پر Cloudflare Turnstile۔</li><li>خرابی کی رپورٹس: Sentry کو ذاتی ڈیٹا کے بغیر کریش کی تفصیلات ملتی ہیں۔</li><li>کوریئرز: آپ کی دی ہوئی کی سے ہم PostEx یا دیگر کوریئرز سے آپ کی شپمنٹس پڑھتے ہیں۔</li></ul>
+<p>ہم ڈیٹا حکام کو صرف اس وقت دیتے ہیں جب پاکستانی قانون اس کا تقاضا کرے۔ ہمارے فراہم کنندگان کے سرورز پاکستان سے باہر ہیں (مثلاً بھارت، سنگاپور، یورپی یونین یا امریکہ میں)؛ ڈیٹا منتقلی اور محفوظ کرنے دونوں کے دوران انکرپٹ رہتا ہے۔</p>
+<h3>ہم اسے کب تک رکھتے ہیں</h3>
+<ul><li>ڈیلیوری کے نتائج اور چیک کے ریکارڈ: ⁦12⁩ مہینے (شپمنٹس ⁦13⁩ مہینے، تاکہ آپ کے تجزیے کا سب سے پرانا مہینہ مکمل رہے)۔</li><li>تصدیق کی تصاویر اور درج کیا گیا CNIC/NTN نمبر: ہمارے فیصلے کے ⁦30⁩ دن بعد تک۔</li><li>درستگی کی درخواستیں: فیصلے کے ⁦12⁩ مہینے بعد تک؛ گاہک کا نمبر فیصلہ بھیجتے ہی حذف۔</li><li>ادائیگی کی رسیدیں: ادائیگی طے ہونے کے ⁦12⁩ مہینے بعد تک۔ انوائس کی رقم اکاؤنٹ رہنے تک رہتی ہے۔</li><li>لاگ اِن کوڈ کی درخواستیں: ⁦12⁩ مہینے۔ سیشنز: ختم ہونے کے ⁦30⁩ دن بعد حذف۔</li><li>ویٹ لسٹ میں شمولیت: ⁦12⁩ مہینے۔</li><li>بند اکاؤنٹس: بند ہونے کے ⁦30⁩ دن بعد فائلوں سمیت سب کچھ حذف، اور مشترکہ گنتی ان کے بغیر دوبارہ حساب ہوتی ہے۔</li><li>ہمارا ایڈمن آڈٹ لاگ یہ دکھانے کے لیے رکھا جاتا ہے کہ کس نے کیا کیا؛ اس میں گاہکوں کے نمبر نہیں ہوتے۔</li></ul>
+<h3>ہم اسے کیسے محفوظ رکھتے ہیں</h3>
+<p>نمبروں، کیز اور دستاویزات کے لیے انکرپشن (AES-⁦256⁩)؛ گاہکوں کے نمبروں کے لیے یک طرفہ کوڈ؛ مختصر مدت کے لنکس کے ساتھ نجی فائل اسٹوریج؛ ایپ میں اسکرین شاٹ بند؛ ہمارے عملے کے لیے دو مرحلوں والا لاگ اِن اور آڈٹ لاگ؛ اور باقاعدہ سیکیورٹی جانچ۔</p>
+
+<h3>آپ کے اختیارات اور حقوق</h3>
+<ul><li>فروخت کنندگان ایپ میں اپنی معلومات دیکھ اور بدل سکتے ہیں، کوریئر الگ کر سکتے ہیں، اسٹاف اور بوٹ نمبر ہٹا سکتے ہیں، اور اکاؤنٹ بند کر سکتے ہیں۔</li><li>گاہک ہماری ویب سائٹ پر، یا نمبر کے ساتھ ⁦usmanjamil047@gmail.com⁩ پر ای میل کر کے، اپنے نمبر سے جڑی گنتی دیکھ سکتے ہیں اور درستگی کی درخواست دے سکتے ہیں۔ ہم ⁦14⁩ دن میں جواب دیتے ہیں۔</li><li>اس کے علاوہ رسائی، درستگی یا حذف کی درخواستوں کے لیے ⁦usmanjamil047@gmail.com⁩ پر لکھیں۔ قانون کی اجازت کی حد تک ہم ⁦30⁩ دن میں جواب دیتے ہیں۔</li></ul>
+<h3>بچے، تبدیلیاں اور رابطہ</h3>
+<p>RiskRadar کاروباروں کے لیے ہے اور ⁦18⁩ سال سے کم عمر افراد کے لیے نہیں۔</p>
+<p>اگر یہ پالیسی بدلے تو ایپ آپ سے نیا ورژن قبول کرنے کو کہے گی۔ رابطہ: ⁦usmanjamil047@gmail.com⁩، لاہور، پاکستان۔</p>
+
+</section>
+<section id="ur-delete-account" lang="ur" dir="rtl">
+<h2>اپنا RiskRadar اکاؤنٹ حذف کریں</h2>
+<p class="small">آخری تبدیلی: ⁦1⁩ اکتوبر ⁦2026⁩</p>
+<p>RiskRadar کو Google Play پر unmetlabs شائع کرتا ہے۔ یہ صفحہ بتاتا ہے کہ اپنا RiskRadar اکاؤنٹ کیسے حذف کریں اور آپ کے ڈیٹا کا کیا ہوتا ہے۔</p>
+<h3>اکاؤنٹ کے مالک: ایپ میں حذف کریں</h3>
+<ol><li>RiskRadar کھولیں اور لاگ اِن کریں۔</li><li>مزید پر ٹیپ کریں۔</li><li>اکاؤنٹ بند کریں پر ٹیپ کریں۔</li><li>CLOSE لکھ کر تصدیق کریں۔</li></ol>
+<p>اکاؤنٹ کے سب افراد فوراً لاگ آؤٹ ہو جاتے ہیں اور آپ کی کوریئر کیز فوراً مٹا دی جاتی ہیں۔ باقی سب کچھ ⁦30⁩ دن بعد حذف ہو جاتا ہے۔ یہ واپس نہیں ہو سکتا۔</p>
+<h3>اسٹاف ممبر، یا اگر آپ ایپ استعمال نہیں کر سکتے</h3>
+<p>کسی بھی ای میل سے ⁦usmanjamil047@gmail.com⁩ پر لکھیں اور وہ موبائل نمبر شامل کریں جس سے آپ لاگ اِن کرتے ہیں۔ ہم SMS کوڈ سے نمبر کی تصدیق کرتے ہیں، پھر ⁦30⁩ دن کے اندر اکاؤنٹ حذف کر دیتے ہیں۔ اسٹاف ممبر اکاؤنٹ کے مالک سے بھی ٹیم سے ہٹانے کو کہہ سکتے ہیں۔</p>
+
+<h3>کیا حذف ہوتا ہے</h3>
+<ul><li>لاگ اِن نمبر، دکان کا نام، شہر اور پیج لنک۔</li><li>لاگ اِن ڈیوائسز اور سیشنز۔</li><li>کاروبار کی تصدیق کی تصاویر اور دستاویزات کے نمبر۔</li><li>کوریئر کنکشنز اور ان سے آنے والی شپمنٹس۔</li><li>ادائیگیاں، انوائسز اور رسیدوں کی تصاویر۔</li><li>آپ کے کیے گئے چیکس کا ریکارڈ اور شامل کیے گئے اضافی واٹس ایپ نمبر۔</li><li>آپ کے پارسل اس مشترکہ گنتی سے نکال دیے جاتے ہیں جو دوسری دکانیں دیکھتی ہیں۔</li><li>آپ کے فون پر محفوظ چیک ہسٹری لاگ آؤٹ پر مٹ جاتی ہے۔</li></ul>
+<h3>کیا رکھا جاتا ہے</h3>
+<ul><li>ہمارا ایڈمن آڈٹ لاگ، جو ریکارڈ کرتا ہے کہ ہمارے عملے نے کیا کیا (مثلاً تصدیق کی منظوری)۔ اس میں گاہکوں کے نمبر نہیں ہوتے اور یہ سیکیورٹی کے لیے رکھا جاتا ہے۔</li><li>آپ کی ادائیگیوں کا جو ریکارڈ آپ کا بینک یا والیٹ رکھتا ہے وہ RiskRadar سے باہر ہے۔</li></ul>
+<h3>صرف کچھ ڈیٹا حذف کریں</h3>
+<ul><li>کوریئر کی: مزید ← کورئیرز ← کوریئر ← الگ کریں۔ کی فوراً حذف ہو جاتی ہے؛ آنے والی شپمنٹس ⁦13⁩ مہینے پرانی ہونے یا اکاؤنٹ حذف ہونے تک رہتی ہیں۔</li><li>اضافی واٹس ایپ نمبر: مزید ← واٹس ایپ بوٹ ← ہٹائیں۔</li><li>باقی کچھ بھی: ⁦usmanjamil047@gmail.com⁩ پر لکھیں۔ ہم ⁦30⁩ دن میں جواب دیتے ہیں۔</li></ul>
+</section>
+</div>
+</body>
+</html>
